@@ -1,0 +1,26 @@
+{
+  "description": "A shortest plan for pennies, found by splitting members into groups that cancel out.",
+  "group": "pennies",
+  "payments": [
+    [
+      "Ned",
+      "Lou",
+      2
+    ],
+    [
+      "Mia",
+      "Lou",
+      1
+    ],
+    [
+      "Pam",
+      "Lou",
+      1
+    ]
+  ],
+  "expect": {
+    "valid": true,
+    "score": 1.0,
+    "check": null
+  }
+}

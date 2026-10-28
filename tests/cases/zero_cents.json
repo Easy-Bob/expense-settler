@@ -1,0 +1,21 @@
+{
+  "description": "A payment of 0 cents.",
+  "group": "refund",
+  "payments": [
+    [
+      "Taj",
+      "Rae",
+      0
+    ],
+    [
+      "Sol",
+      "Uma",
+      2000
+    ]
+  ],
+  "expect": {
+    "valid": false,
+    "score": 0.0,
+    "check": "submitted-shape"
+  }
+}

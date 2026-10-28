@@ -1,0 +1,26 @@
+{
+  "description": "A member pays themselves.",
+  "group": "dinner",
+  "payments": [
+    [
+      "Gus",
+      "Eva",
+      4275
+    ],
+    [
+      "Finn",
+      "Eva",
+      475
+    ],
+    [
+      "Eva",
+      "Eva",
+      100
+    ]
+  ],
+  "expect": {
+    "valid": false,
+    "score": 0.0,
+    "check": "submitted-shape"
+  }
+}

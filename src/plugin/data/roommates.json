@@ -1,0 +1,183 @@
+{
+ "expenses": [
+  {
+   "amount_cents": 8743,
+   "description": "Groceries",
+   "id": "e1",
+   "paid_by": "Ana",
+   "shares": [
+    {
+     "member": "Ana",
+     "weight": 1
+    },
+    {
+     "member": "Ben",
+     "weight": 1
+    },
+    {
+     "member": "Cara",
+     "weight": 1
+    },
+    {
+     "member": "Dan",
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "amount_cents": 6000,
+   "description": "Internet bill",
+   "id": "e2",
+   "paid_by": "Ben",
+   "shares": [
+    {
+     "member": "Ana",
+     "weight": 1
+    },
+    {
+     "member": "Ben",
+     "weight": 1
+    },
+    {
+     "member": "Cara",
+     "weight": 1
+    },
+    {
+     "member": "Dan",
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "amount_cents": 1000,
+   "description": "Cleaning supplies",
+   "id": "e3",
+   "paid_by": "Cara",
+   "shares": [
+    {
+     "member": "Ana",
+     "weight": 1
+    },
+    {
+     "member": "Ben",
+     "weight": 1
+    },
+    {
+     "member": "Cara",
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "amount_cents": 4599,
+   "description": "Pizza night",
+   "id": "e4",
+   "paid_by": "Dan",
+   "shares": [
+    {
+     "member": "Ana",
+     "weight": 1
+    },
+    {
+     "member": "Ben",
+     "weight": 1
+    },
+    {
+     "member": "Cara",
+     "weight": 1
+    },
+    {
+     "member": "Dan",
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "amount_cents": 11237,
+   "description": "Electricity",
+   "id": "e5",
+   "paid_by": "Ana",
+   "shares": [
+    {
+     "member": "Ana",
+     "weight": 1
+    },
+    {
+     "member": "Ben",
+     "weight": 1
+    },
+    {
+     "member": "Cara",
+     "weight": 1
+    },
+    {
+     "member": "Dan",
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "amount_cents": 1999,
+   "description": "Toilet paper",
+   "id": "e6",
+   "paid_by": "Ben",
+   "shares": [
+    {
+     "member": "Ben",
+     "weight": 1
+    },
+    {
+     "member": "Cara",
+     "weight": 1
+    },
+    {
+     "member": "Dan",
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "amount_cents": 599,
+   "description": "Movie rental",
+   "id": "e7",
+   "paid_by": "Cara",
+   "shares": [
+    {
+     "member": "Ana",
+     "weight": 1
+    },
+    {
+     "member": "Cara",
+     "weight": 1
+    },
+    {
+     "member": "Dan",
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "amount_cents": 2350,
+   "description": "Coffee beans",
+   "id": "e8",
+   "paid_by": "Dan",
+   "shares": [
+    {
+     "member": "Ana",
+     "weight": 1
+    },
+    {
+     "member": "Dan",
+     "weight": 1
+    }
+   ]
+  }
+ ],
+ "group": "roommates",
+ "members": [
+  "Ana",
+  "Ben",
+  "Cara",
+  "Dan"
+ ]
+}

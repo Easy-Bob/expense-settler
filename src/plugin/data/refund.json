@@ -1,0 +1,155 @@
+{
+ "expenses": [
+  {
+   "amount_cents": 16000,
+   "description": "Concert tickets",
+   "id": "e1",
+   "paid_by": "Rae",
+   "shares": [
+    {
+     "member": "Rae",
+     "weight": 1
+    },
+    {
+     "member": "Sol",
+     "weight": 1
+    },
+    {
+     "member": "Taj",
+     "weight": 1
+    },
+    {
+     "member": "Uma",
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "amount_cents": -8000,
+   "description": "Refund: one show was cancelled",
+   "id": "e2",
+   "paid_by": "Rae",
+   "shares": [
+    {
+     "member": "Rae",
+     "weight": 1
+    },
+    {
+     "member": "Sol",
+     "weight": 1
+    },
+    {
+     "member": "Taj",
+     "weight": 1
+    },
+    {
+     "member": "Uma",
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "amount_cents": 3000,
+   "description": "Taxi",
+   "id": "e3",
+   "paid_by": "Sol",
+   "shares": [
+    {
+     "member": "Sol",
+     "weight": 1
+    },
+    {
+     "member": "Taj",
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "amount_cents": 6000,
+   "description": "Dinner",
+   "id": "e4",
+   "paid_by": "Uma",
+   "shares": [
+    {
+     "member": "Rae",
+     "weight": 1
+    },
+    {
+     "member": "Sol",
+     "weight": 1
+    },
+    {
+     "member": "Taj",
+     "weight": 1
+    },
+    {
+     "member": "Uma",
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "amount_cents": -2000,
+   "description": "Partial refund on dinner",
+   "id": "e5",
+   "paid_by": "Uma",
+   "shares": [
+    {
+     "member": "Rae",
+     "weight": 1
+    },
+    {
+     "member": "Sol",
+     "weight": 1
+    },
+    {
+     "member": "Taj",
+     "weight": 1
+    },
+    {
+     "member": "Uma",
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "amount_cents": 1000,
+   "description": "Parking",
+   "id": "e6",
+   "paid_by": "Taj",
+   "shares": [
+    {
+     "member": "Taj",
+     "weight": 1
+    },
+    {
+     "member": "Sol",
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "amount_cents": 2000,
+   "description": "Coffee",
+   "id": "e7",
+   "paid_by": "Uma",
+   "shares": [
+    {
+     "member": "Rae",
+     "weight": 1
+    },
+    {
+     "member": "Uma",
+     "weight": 1
+    }
+   ]
+  }
+ ],
+ "group": "refund",
+ "members": [
+  "Rae",
+  "Sol",
+  "Taj",
+  "Uma"
+ ]
+}

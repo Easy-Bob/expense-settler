@@ -1,0 +1,217 @@
+{
+ "expenses": [
+  {
+   "amount_cents": 10000,
+   "description": "Hotel room for two",
+   "id": "e1",
+   "paid_by": "Ana",
+   "shares": [
+    {
+     "member": "Ana",
+     "weight": 1
+    },
+    {
+     "member": "Ben",
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "amount_cents": 9000,
+   "description": "Boat tour",
+   "id": "e2",
+   "paid_by": "Eli",
+   "shares": [
+    {
+     "member": "Ana",
+     "weight": 1
+    },
+    {
+     "member": "Eli",
+     "weight": 1
+    },
+    {
+     "member": "Cara",
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "amount_cents": 8000,
+   "description": "Group dinner",
+   "id": "e3",
+   "paid_by": "Cara",
+   "shares": [
+    {
+     "member": "Cara",
+     "weight": 1
+    },
+    {
+     "member": "Dan",
+     "weight": 1
+    },
+    {
+     "member": "Eli",
+     "weight": 1
+    },
+    {
+     "member": "Fay",
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "amount_cents": 9000,
+   "description": "Concert tickets (Dan brought a friend)",
+   "id": "e4",
+   "paid_by": "Ben",
+   "shares": [
+    {
+     "member": "Ben",
+     "weight": 1
+    },
+    {
+     "member": "Dan",
+     "weight": 2
+    }
+   ]
+  },
+  {
+   "amount_cents": 6000,
+   "description": "Car rental",
+   "id": "e5",
+   "paid_by": "Ana",
+   "shares": [
+    {
+     "member": "Ana",
+     "weight": 1
+    },
+    {
+     "member": "Eli",
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "amount_cents": 4000,
+   "description": "Museum tickets for Eli and Fay",
+   "id": "e6",
+   "paid_by": "Dan",
+   "shares": [
+    {
+     "member": "Eli",
+     "weight": 1
+    },
+    {
+     "member": "Fay",
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "amount_cents": 2400,
+   "description": "Breakfast",
+   "id": "e7",
+   "paid_by": "Fay",
+   "shares": [
+    {
+     "member": "Fay",
+     "weight": 1
+    },
+    {
+     "member": "Ana",
+     "weight": 1
+    },
+    {
+     "member": "Dan",
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "amount_cents": 9000,
+   "description": "Late-night groceries (Ben ate double)",
+   "id": "e8",
+   "paid_by": "Dan",
+   "shares": [
+    {
+     "member": "Dan",
+     "weight": 1
+    },
+    {
+     "member": "Ben",
+     "weight": 2
+    }
+   ]
+  },
+  {
+   "amount_cents": 6000,
+   "description": "Fuel",
+   "id": "e9",
+   "paid_by": "Cara",
+   "shares": [
+    {
+     "member": "Cara",
+     "weight": 1
+    },
+    {
+     "member": "Eli",
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "amount_cents": 1600,
+   "description": "Parking",
+   "id": "e10",
+   "paid_by": "Ana",
+   "shares": [
+    {
+     "member": "Ana",
+     "weight": 1
+    },
+    {
+     "member": "Fay",
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "amount_cents": 500,
+   "description": "Snacks for Eli",
+   "id": "e11",
+   "paid_by": "Fay",
+   "shares": [
+    {
+     "member": "Eli",
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "amount_cents": 1600,
+   "description": "Beach chairs",
+   "id": "e12",
+   "paid_by": "Dan",
+   "shares": [
+    {
+     "member": "Dan",
+     "weight": 1
+    },
+    {
+     "member": "Fay",
+     "weight": 1
+    }
+   ]
+  }
+ ],
+ "group": "trip",
+ "members": [
+  "Ana",
+  "Ben",
+  "Cara",
+  "Dan",
+  "Eli",
+  "Fay"
+ ]
+}

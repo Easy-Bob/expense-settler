@@ -1,0 +1,21 @@
+{
+  "description": "Payer and payee swapped on one payment: money flows the wrong way.",
+  "group": "dinner",
+  "payments": [
+    [
+      "Eva",
+      "Gus",
+      4275
+    ],
+    [
+      "Finn",
+      "Eva",
+      475
+    ]
+  ],
+  "expect": {
+    "valid": false,
+    "score": 0.0,
+    "check": "settles"
+  }
+}

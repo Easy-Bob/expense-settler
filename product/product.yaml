@@ -1,0 +1,11 @@
+_ > nanoagent.plugin.v0001.ProductConfig:
+tagline: "Settle group expenses with the fewest payments"
+summary: "Pick a group of friends with shared expenses. An agent works out who should pay whom so everyone ends even with as few payments as possible, and a verifier checks every balance reaches zero and that no shorter plan exists."
+highlights:
+  - "Seven bundled groups, from a three-person dinner to a ten-person club"
+  - "Any shortest plan passes; longer plans get partial credit"
+  - "Runs offline, with every amount in whole cents"
+steps:
+  - "Ask to settle one of the groups: roommates, dinner, trip, club, settled, pennies or refund"
+  - "The agent reads the balances, plans the payments and checks them"
+  - "It submits the payments, and the verdict card shows whether they are the fewest possible"

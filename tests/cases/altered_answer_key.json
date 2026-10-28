@@ -1,0 +1,32 @@
+{
+  "description": "The pinned answer key altered: a balance changed without its sha256.",
+  "group": "trip",
+  "payments": [
+    [
+      "Ben",
+      "Ana",
+      5000
+    ],
+    [
+      "Eli",
+      "Cara",
+      4500
+    ],
+    [
+      "Fay",
+      "Dan",
+      2000
+    ],
+    [
+      "Fay",
+      "Cara",
+      1500
+    ]
+  ],
+  "expect": {
+    "valid": false,
+    "score": 0.0,
+    "check": "key-integrity"
+  },
+  "tamper": "altered-key"
+}

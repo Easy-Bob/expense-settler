@@ -1,0 +1,56 @@
+{
+  "description": "Greedy on the 10-member club: 9 payments where 7 are enough.",
+  "group": "club",
+  "payments": [
+    [
+      "Lea",
+      "Pia",
+      3500
+    ],
+    [
+      "Rex",
+      "Max",
+      3000
+    ],
+    [
+      "Nia",
+      "Kai",
+      2500
+    ],
+    [
+      "Sam",
+      "Quin",
+      2000
+    ],
+    [
+      "Oto",
+      "Kai",
+      1000
+    ],
+    [
+      "Tia",
+      "Max",
+      1000
+    ],
+    [
+      "Oto",
+      "Pia",
+      500
+    ],
+    [
+      "Tia",
+      "Pia",
+      300
+    ],
+    [
+      "Sam",
+      "Pia",
+      200
+    ]
+  ],
+  "expect": {
+    "valid": false,
+    "score": 0.7778,
+    "check": "minimal"
+  }
+}

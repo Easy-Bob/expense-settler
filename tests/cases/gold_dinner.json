@@ -1,0 +1,21 @@
+{
+  "description": "A shortest plan for dinner, found by splitting members into groups that cancel out.",
+  "group": "dinner",
+  "payments": [
+    [
+      "Gus",
+      "Eva",
+      4275
+    ],
+    [
+      "Finn",
+      "Eva",
+      475
+    ]
+  ],
+  "expect": {
+    "valid": true,
+    "score": 1.0,
+    "check": null
+  }
+}

@@ -1,0 +1,139 @@
+{
+ "expenses": [
+  {
+   "amount_cents": 4000,
+   "description": "Week 1 groceries",
+   "id": "e1",
+   "paid_by": "Hal",
+   "shares": [
+    {
+     "member": "Hal",
+     "weight": 1
+    },
+    {
+     "member": "Ida",
+     "weight": 1
+    },
+    {
+     "member": "Jon",
+     "weight": 1
+    },
+    {
+     "member": "Kim",
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "amount_cents": 4000,
+   "description": "Week 2 groceries",
+   "id": "e2",
+   "paid_by": "Ida",
+   "shares": [
+    {
+     "member": "Hal",
+     "weight": 1
+    },
+    {
+     "member": "Ida",
+     "weight": 1
+    },
+    {
+     "member": "Jon",
+     "weight": 1
+    },
+    {
+     "member": "Kim",
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "amount_cents": 2000,
+   "description": "Pizza",
+   "id": "e3",
+   "paid_by": "Hal",
+   "shares": [
+    {
+     "member": "Hal",
+     "weight": 1
+    },
+    {
+     "member": "Ida",
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "amount_cents": 4000,
+   "description": "Week 3 groceries",
+   "id": "e4",
+   "paid_by": "Jon",
+   "shares": [
+    {
+     "member": "Hal",
+     "weight": 1
+    },
+    {
+     "member": "Ida",
+     "weight": 1
+    },
+    {
+     "member": "Jon",
+     "weight": 1
+    },
+    {
+     "member": "Kim",
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "amount_cents": 2000,
+   "description": "Wings",
+   "id": "e5",
+   "paid_by": "Ida",
+   "shares": [
+    {
+     "member": "Hal",
+     "weight": 1
+    },
+    {
+     "member": "Ida",
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "amount_cents": 4000,
+   "description": "Week 4 groceries",
+   "id": "e6",
+   "paid_by": "Kim",
+   "shares": [
+    {
+     "member": "Hal",
+     "weight": 1
+    },
+    {
+     "member": "Ida",
+     "weight": 1
+    },
+    {
+     "member": "Jon",
+     "weight": 1
+    },
+    {
+     "member": "Kim",
+     "weight": 1
+    }
+   ]
+  }
+ ],
+ "group": "settled",
+ "members": [
+  "Hal",
+  "Ida",
+  "Jon",
+  "Kim"
+ ]
+}

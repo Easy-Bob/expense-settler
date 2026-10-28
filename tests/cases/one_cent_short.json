@@ -1,0 +1,26 @@
+{
+  "description": "One payment is 1 cent short.",
+  "group": "roommates",
+  "payments": [
+    [
+      "Cara",
+      "Ana",
+      7244
+    ],
+    [
+      "Dan",
+      "Ana",
+      2734
+    ],
+    [
+      "Ben",
+      "Ana",
+      646
+    ]
+  ],
+  "expect": {
+    "valid": false,
+    "score": 0.0,
+    "check": "settles"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "On an already even group, two payments that cancel each other: settles, but 0 payments were enough.",
+  "group": "settled",
+  "payments": [
+    [
+      "Hal",
+      "Ida",
+      100
+    ],
+    [
+      "Ida",
+      "Hal",
+      100
+    ]
+  ],
+  "expect": {
+    "valid": false,
+    "score": 0.0,
+    "check": "minimal"
+  }
+}

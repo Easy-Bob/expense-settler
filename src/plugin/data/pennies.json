@@ -1,0 +1,124 @@
+{
+ "expenses": [
+  {
+   "amount_cents": 1,
+   "description": "Gum",
+   "id": "e1",
+   "paid_by": "Lou",
+   "shares": [
+    {
+     "member": "Mia",
+     "weight": 1
+    },
+    {
+     "member": "Ned",
+     "weight": 1
+    },
+    {
+     "member": "Ola",
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "amount_cents": 5,
+   "description": "Stamp",
+   "id": "e2",
+   "paid_by": "Mia",
+   "shares": [
+    {
+     "member": "Lou",
+     "weight": 1
+    },
+    {
+     "member": "Mia",
+     "weight": 1
+    },
+    {
+     "member": "Ned",
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "amount_cents": 4,
+   "description": "Candy",
+   "id": "e3",
+   "paid_by": "Ned",
+   "shares": [
+    {
+     "member": "Ola",
+     "weight": 1
+    },
+    {
+     "member": "Pam",
+     "weight": 1
+    },
+    {
+     "member": "Lou",
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "amount_cents": 3,
+   "description": "Sticker",
+   "id": "e4",
+   "paid_by": "Ola",
+   "shares": [
+    {
+     "member": "Pam",
+     "weight": 1
+    },
+    {
+     "member": "Ola",
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "amount_cents": 2,
+   "description": "Mint",
+   "id": "e5",
+   "paid_by": "Pam",
+   "shares": [
+    {
+     "member": "Lou",
+     "weight": 1
+    },
+    {
+     "member": "Mia",
+     "weight": 1
+    },
+    {
+     "member": "Ned",
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "amount_cents": 7,
+   "description": "Button",
+   "id": "e6",
+   "paid_by": "Lou",
+   "shares": [
+    {
+     "member": "Ned",
+     "weight": 2
+    },
+    {
+     "member": "Mia",
+     "weight": 1
+    }
+   ]
+  }
+ ],
+ "group": "pennies",
+ "members": [
+  "Lou",
+  "Mia",
+  "Ned",
+  "Ola",
+  "Pam"
+ ]
+}

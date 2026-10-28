@@ -1,0 +1,26 @@
+{
+  "description": "Balances worked out with the leftover cents given to the last sharers instead of the first: the plan misses by a few cents.",
+  "group": "pennies",
+  "payments": [
+    [
+      "Ned",
+      "Lou",
+      3
+    ],
+    [
+      "Mia",
+      "Lou",
+      1
+    ],
+    [
+      "Ola",
+      "Lou",
+      1
+    ]
+  ],
+  "expect": {
+    "valid": false,
+    "score": 0.0,
+    "check": "settles"
+  }
+}

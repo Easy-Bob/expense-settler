@@ -1,0 +1,31 @@
+{
+  "description": "A different plan of the same shortest length is accepted too: there is no single expected answer.",
+  "group": "trip",
+  "payments": [
+    [
+      "Ben",
+      "Ana",
+      5000
+    ],
+    [
+      "Fay",
+      "Cara",
+      3500
+    ],
+    [
+      "Eli",
+      "Cara",
+      2500
+    ],
+    [
+      "Eli",
+      "Dan",
+      2000
+    ]
+  ],
+  "expect": {
+    "valid": true,
+    "score": 1.0,
+    "check": null
+  }
+}

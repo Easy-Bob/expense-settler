@@ -1,0 +1,10 @@
+{
+  "description": "No payments for a group that owes money.",
+  "group": "trip",
+  "payments": [],
+  "expect": {
+    "valid": false,
+    "score": 0.0,
+    "check": "settles"
+  }
+}

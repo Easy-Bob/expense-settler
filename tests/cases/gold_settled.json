@@ -1,0 +1,10 @@
+{
+  "description": "Boundary: everyone is already even, so the right answer is no payments at all.",
+  "group": "settled",
+  "payments": [],
+  "expect": {
+    "valid": true,
+    "score": 1.0,
+    "check": null
+  }
+}

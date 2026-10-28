@@ -1,0 +1,22 @@
+{
+  "description": "Settles another group than the task's.",
+  "group": "roommates",
+  "payments": [
+    [
+      "Gus",
+      "Eva",
+      4275
+    ],
+    [
+      "Finn",
+      "Eva",
+      475
+    ]
+  ],
+  "expect": {
+    "valid": false,
+    "score": 0.0,
+    "check": "submitted-shape"
+  },
+  "submit_group": "dinner"
+}

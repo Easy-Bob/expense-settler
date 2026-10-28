@@ -1,0 +1,78 @@
+{
+ "expenses": [
+  {
+   "amount_cents": 6400,
+   "description": "Dinner: Eva treats Finn and Gus",
+   "id": "e1",
+   "paid_by": "Eva",
+   "shares": [
+    {
+     "member": "Finn",
+     "weight": 1
+    },
+    {
+     "member": "Gus",
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "amount_cents": 2700,
+   "description": "Drinks",
+   "id": "e2",
+   "paid_by": "Finn",
+   "shares": [
+    {
+     "member": "Eva",
+     "weight": 1
+    },
+    {
+     "member": "Finn",
+     "weight": 1
+    },
+    {
+     "member": "Gus",
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "amount_cents": 1500,
+   "description": "Dessert",
+   "id": "e3",
+   "paid_by": "Gus",
+   "shares": [
+    {
+     "member": "Eva",
+     "weight": 1
+    },
+    {
+     "member": "Gus",
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "amount_cents": 1850,
+   "description": "Taxi home",
+   "id": "e4",
+   "paid_by": "Finn",
+   "shares": [
+    {
+     "member": "Finn",
+     "weight": 1
+    },
+    {
+     "member": "Gus",
+     "weight": 1
+    }
+   ]
+  }
+ ],
+ "group": "dinner",
+ "members": [
+  "Eva",
+  "Finn",
+  "Gus"
+ ]
+}

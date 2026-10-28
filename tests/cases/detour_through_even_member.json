@@ -1,0 +1,31 @@
+{
+  "description": "Routes a payment through Ola, whose balance is already 0: it settles, but with one payment too many.",
+  "group": "pennies",
+  "payments": [
+    [
+      "Ned",
+      "Ola",
+      2
+    ],
+    [
+      "Ola",
+      "Lou",
+      2
+    ],
+    [
+      "Mia",
+      "Lou",
+      1
+    ],
+    [
+      "Pam",
+      "Lou",
+      1
+    ]
+  ],
+  "expect": {
+    "valid": false,
+    "score": 0.75,
+    "check": "minimal"
+  }
+}

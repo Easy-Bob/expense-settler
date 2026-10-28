@@ -1,0 +1,26 @@
+{
+  "description": "A payment from someone not in the group.",
+  "group": "roommates",
+  "payments": [
+    [
+      "Zed",
+      "Ana",
+      7245
+    ],
+    [
+      "Dan",
+      "Ana",
+      2734
+    ],
+    [
+      "Ben",
+      "Ana",
+      646
+    ]
+  ],
+  "expect": {
+    "valid": false,
+    "score": 0.0,
+    "check": "submitted-shape"
+  }
+}

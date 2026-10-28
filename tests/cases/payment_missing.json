@@ -1,0 +1,41 @@
+{
+  "description": "One payment of the shortest club plan left out.",
+  "group": "club",
+  "payments": [
+    [
+      "Sam",
+      "Kai",
+      2200
+    ],
+    [
+      "Tia",
+      "Kai",
+      1300
+    ],
+    [
+      "Lea",
+      "Pia",
+      3500
+    ],
+    [
+      "Rex",
+      "Quin",
+      2000
+    ],
+    [
+      "Rex",
+      "Pia",
+      1000
+    ],
+    [
+      "Nia",
+      "Max",
+      2500
+    ]
+  ],
+  "expect": {
+    "valid": false,
+    "score": 0.0,
+    "check": "settles"
+  }
+}

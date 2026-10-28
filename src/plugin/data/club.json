@@ -1,0 +1,285 @@
+{
+ "expenses": [
+  {
+   "amount_cents": 7000,
+   "description": "Tournament entry for Kai and Lea",
+   "id": "e1",
+   "paid_by": "Kai",
+   "shares": [
+    {
+     "member": "Kai",
+     "weight": 1
+    },
+    {
+     "member": "Lea",
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "amount_cents": 4000,
+   "description": "Equipment",
+   "id": "e2",
+   "paid_by": "Pia",
+   "shares": [
+    {
+     "member": "Pia",
+     "weight": 1
+    },
+    {
+     "member": "Quin",
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "amount_cents": 6000,
+   "description": "Team dinner",
+   "id": "e3",
+   "paid_by": "Max",
+   "shares": [
+    {
+     "member": "Max",
+     "weight": 1
+    },
+    {
+     "member": "Nia",
+     "weight": 1
+    },
+    {
+     "member": "Oto",
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "amount_cents": 3000,
+   "description": "Team photos",
+   "id": "e4",
+   "paid_by": "Lea",
+   "shares": [
+    {
+     "member": "Lea",
+     "weight": 1
+    },
+    {
+     "member": "Sam",
+     "weight": 1
+    },
+    {
+     "member": "Tia",
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "amount_cents": 6000,
+   "description": "Jerseys (Kai ordered two)",
+   "id": "e5",
+   "paid_by": "Max",
+   "shares": [
+    {
+     "member": "Max",
+     "weight": 1
+    },
+    {
+     "member": "Kai",
+     "weight": 2
+    }
+   ]
+  },
+  {
+   "amount_cents": 7500,
+   "description": "Court booking",
+   "id": "e6",
+   "paid_by": "Pia",
+   "shares": [
+    {
+     "member": "Pia",
+     "weight": 1
+    },
+    {
+     "member": "Rex",
+     "weight": 1
+    },
+    {
+     "member": "Sam",
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "amount_cents": 1500,
+   "description": "Trophy engraving",
+   "id": "e7",
+   "paid_by": "Nia",
+   "shares": [
+    {
+     "member": "Nia",
+     "weight": 1
+    },
+    {
+     "member": "Oto",
+     "weight": 1
+    },
+    {
+     "member": "Rex",
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "amount_cents": 4000,
+   "description": "Field rental",
+   "id": "e8",
+   "paid_by": "Quin",
+   "shares": [
+    {
+     "member": "Pia",
+     "weight": 1
+    },
+    {
+     "member": "Quin",
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "amount_cents": 2000,
+   "description": "Bus tickets for Rex and Tia",
+   "id": "e9",
+   "paid_by": "Quin",
+   "shares": [
+    {
+     "member": "Rex",
+     "weight": 1
+    },
+    {
+     "member": "Tia",
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "amount_cents": 2000,
+   "description": "Snacks",
+   "id": "e10",
+   "paid_by": "Sam",
+   "shares": [
+    {
+     "member": "Sam",
+     "weight": 1
+    },
+    {
+     "member": "Lea",
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "amount_cents": 6000,
+   "description": "Referee fees (Max covered two games)",
+   "id": "e11",
+   "paid_by": "Kai",
+   "shares": [
+    {
+     "member": "Kai",
+     "weight": 1
+    },
+    {
+     "member": "Max",
+     "weight": 2
+    }
+   ]
+  },
+  {
+   "amount_cents": 500,
+   "description": "Nia's water bottle",
+   "id": "e12",
+   "paid_by": "Oto",
+   "shares": [
+    {
+     "member": "Nia",
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "amount_cents": 500,
+   "description": "Pia's tape",
+   "id": "e13",
+   "paid_by": "Rex",
+   "shares": [
+    {
+     "member": "Pia",
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "amount_cents": 2000,
+   "description": "Water",
+   "id": "e14",
+   "paid_by": "Tia",
+   "shares": [
+    {
+     "member": "Tia",
+     "weight": 1
+    },
+    {
+     "member": "Lea",
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "amount_cents": 300,
+   "description": "Tia's wristband",
+   "id": "e15",
+   "paid_by": "Sam",
+   "shares": [
+    {
+     "member": "Tia",
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "amount_cents": 500,
+   "description": "Oto's share of the engraving, paid back",
+   "id": "e16",
+   "paid_by": "Oto",
+   "shares": [
+    {
+     "member": "Nia",
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "amount_cents": 500,
+   "description": "Rex's share of the engraving, paid back",
+   "id": "e17",
+   "paid_by": "Rex",
+   "shares": [
+    {
+     "member": "Nia",
+     "weight": 1
+    }
+   ]
+  }
+ ],
+ "group": "club",
+ "members": [
+  "Kai",
+  "Lea",
+  "Max",
+  "Nia",
+  "Oto",
+  "Pia",
+  "Quin",
+  "Rex",
+  "Sam",
+  "Tia"
+ ]
+}

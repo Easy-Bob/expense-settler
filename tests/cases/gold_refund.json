@@ -1,0 +1,21 @@
+{
+  "description": "A shortest plan for refund, found by splitting members into groups that cancel out.",
+  "group": "refund",
+  "payments": [
+    [
+      "Taj",
+      "Rae",
+      4000
+    ],
+    [
+      "Sol",
+      "Uma",
+      2000
+    ]
+  ],
+  "expect": {
+    "valid": true,
+    "score": 1.0,
+    "check": null
+  }
+}

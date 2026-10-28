@@ -1,0 +1,26 @@
+{
+  "description": "A shortest plan for roommates, found by splitting members into groups that cancel out.",
+  "group": "roommates",
+  "payments": [
+    [
+      "Cara",
+      "Ana",
+      7245
+    ],
+    [
+      "Dan",
+      "Ana",
+      2734
+    ],
+    [
+      "Ben",
+      "Ana",
+      646
+    ]
+  ],
+  "expect": {
+    "valid": true,
+    "score": 1.0,
+    "check": null
+  }
+}

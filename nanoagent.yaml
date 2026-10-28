@@ -1,0 +1,42 @@
+_ > nanoagent.plugin.v0001.ManifestConfig:
+id: expense-settler
+name: Expense Settler
+version: 0.1.0
+status: in-development
+spec: nanoagent.plugin/v0001
+
+runtime > nanoagent.plugin.v0001.RuntimeConfig:
+  type: mcp_stdio
+  command: [uv, run, --frozen, python, -m, plugin]
+
+permissions > nanoagent.plugin.v0001.PermissionsConfig:
+  network > nanoagent.plugin.v0001.NetworkConfig:
+    hosts: []
+  filesystem > nanoagent.plugin.v0001.FilesystemConfig:
+    write: [workspace]
+
+# One entry per contract.Tool; its input and output classes are contract.TOOLS's.
+tools > dict[contract.Tool, nanoagent.plugin.v0001.ToolConfig]:
+  pin_settlement:
+    description: Pin the settle task's answer key, a bundled group's expenses, every member's balance and the fewest payments that settle the group
+  read_expenses:
+    description: List a bundled group's members and every expense, with who paid, how much and who shares it
+  get_balances:
+    description: Give every member's balance in cents, positive when the group owes them and negative when they owe the group
+  check_settlement:
+    description: Check whether a plan of payments brings every balance to exactly 0, and list each member still off and by how much; it never says whether the plan is the shortest
+
+# One entry per contract.Task; its input class is contract.TASKS's.
+tasks > dict[contract.Task, nanoagent.plugin.v0001.TaskConfig]:
+  settle:
+    description: Settle a bundled group's shared expenses with the fewest possible payments
+    runner: agent
+    tools: [read_expenses, get_balances, check_settlement]
+    reference: pin_settlement
+    instructions: |-
+      Goal. Everyone in the group must end even, with as few payments as possible.
+      Balances. get_balances gives each member's balance in cents: positive means the group owes them, negative means they owe the group. The balances add up to 0. A payment {payer, payee, cents} moves cents from a member who owes to a member who is owed.
+      Fewest payments. Split the members with a non-zero balance into as many groups as you can where each group's balances add up to exactly 0: look for pairs first (one owes exactly what another is owed), then groups of three, and so on. A group of k members settles with k - 1 payments: inside it, the member who owes most pays the member owed most as much as one of them needs, until all are even. So the fewest payments is the number of non-zero members minus the number of groups. Paying biggest to biggest across the whole group often takes more.
+      Plan. One tool call per step: (1) get_balances; (2) find the groups and write the payments; (3) check_settlement with them, and fix any member it lists as still off; (4) submit.
+      Rules. Amounts are whole cents, 1 or more. A member with a balance of 0 never pays or is paid. Never pay yourself. read_expenses is optional and costs a step.
+      Submit. The group as given and the payments exactly as checked.
