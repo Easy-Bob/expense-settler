@@ -1,7 +1,7 @@
 _ > nanoagent.plugin.v0001.ManifestConfig:
 id: expense-settler
 name: Expense Settler
-version: 0.1.1
+version: 0.1.2
 status: ready
 spec: nanoagent.plugin/v0001
 
@@ -29,7 +29,7 @@ tools > dict[contract.Tool, nanoagent.plugin.v0001.ToolConfig]:
 # One entry per contract.Task; its input class is contract.TASKS's.
 tasks > dict[contract.Task, nanoagent.plugin.v0001.TaskConfig]:
   settle:
-    description: Settle a bundled group's shared expenses with the fewest possible payments
+    description: Settle one of the bundled groups (roommates, dinner, trip, club, settled, pennies or refund) with the fewest possible payments, for example settle the trip group
     runner: agent
     tools: [read_expenses, get_balances, check_settlement]
     reference: pin_settlement
